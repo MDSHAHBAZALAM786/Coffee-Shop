@@ -1,0 +1,96 @@
+body {
+    background-color: #EFDFC4;
+    color: #3a2215;
+    font-family: Arial, sans-serif;
+    padding-top: 70px;
+}
+
+.navbar {
+    background: rgba(75, 42, 22, 0.8) !important;
+}
+.navbar-brand {
+    color: #EFDFC4;
+    font-size: 2rem;
+}
+.nav-link {
+    color: #EFDFC4;
+    font-size: 1.2rem;
+}
+.nav-link:hover {
+    color: #F9F8F1;
+}
+
+.about-header {
+    text-align: center;
+    padding: 30px 10%;
+}
+.about-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #3a2215;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.about-header p {
+    font-size: 1.2rem;
+    color: #5a3e2b;
+}
+
+.about-section {
+    padding: 30px 10%;
+}
+
+.team-section {
+    padding: 50px 10%;
+    background-color: #5a3e2b;
+    color: #EFDFC4;
+    text-align: center;
+}
+
+.team-member {
+    background: #3a2215;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: #EFDFC4;
+    transition: transform 0.3s ease-in-out;
+}
+.team-member:hover {
+    transform: scale(1.05);
+}
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #3a2215;
+    padding: 20px 0;
+    text-align: center;
+    color: #EFDFC4;
+    font-size: 1.2rem;
+}
+.footer p {
+    margin: 0;
+    font-weight: bold;
+}
+.social-icons a {
+    color: #f5e0c3;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+.social-icons a:hover {
+    color: #e6b17e;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 5px ;
+    }
+    .cont{
+        margin-top: 20px;
+    }
+}
